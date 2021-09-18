@@ -28,10 +28,10 @@ nicknameDisplay.innerHTML = randomNickname;
 /* PORTRAITS */
 // List of portraits
 const portraits = {
-    portrait1: './assets/test1.jpg',
-    portrait2: './assets/test2.jpg',
-    portrait3: './assets/test3.jpg',
-    portrait4: './assets/test4.png'
+    portrait1: 'test1.jpg',
+    portrait2: 'test2.jpg',
+    portrait3: 'test3.jpg',
+    portrait4: 'test4.png'
 }
 
 const portraitsArray = Object.values(portraits);
