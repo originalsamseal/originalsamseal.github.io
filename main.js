@@ -9,7 +9,7 @@ const nicknames = {
 
 const nicknamesArray = Object.values(nicknames);
         // CONSOLE TESTING
-    console.log('Names to choose from: ' + nicknamesArray)
+    console.log('Names to choose from: ' + nicknamesArray);
 
 // Nickname randomizer
 let n = Math.floor(Math.random() * nicknamesArray.length);
@@ -24,6 +24,35 @@ nicknameDisplay.innerHTML = randomNickname;
         // CONSOLE TESTING
     console.log('Name currently displayed: ' + nicknameDisplay.innerHTML);
 /* END NICKNAMES */
+
+/* TITLE FONTS */
+// List of title fonts
+const fonts = {
+    font1: "'Capriola', sans-serif",
+    font2: "arial, sans-serif",
+    font3: "'Carattere', sans-serif",
+    font4: "'Caveat', sans-serif",
+    font5: "'Gluten', sans-serif",
+    font6: "'Lato', sans-serif",
+    font7: "'Pacifico', sans-serif"
+};
+
+const fontsArray = Object.values(fonts);
+        // CONSOLE TESTING
+    console.log('Available fonts: ' + fontsArray);
+
+// Font randomizer
+let f = Math.floor(Math.random() * fontsArray.length);
+const randomFont = fontsArray[f];
+        // CONSOLE TESTING
+    console.log('Fonts index: ' + f);
+    console.log('Random font: ' + randomFont);
+
+// DOM - Title Font manipulator
+nicknameDisplay.style.fontFamily = randomFont;
+
+/* END TITLE FONTS */
+
 
 /* PORTRAITS */
 // List of portraits
@@ -49,3 +78,4 @@ let portraitDisplay = document.getElementById('sammy-portrait')
 portraitDisplay.src = randomPortrait;
         // CONSOLE TESTING
     console.log('Portrait currently displayed: ' + portraitDisplay.src);
+/* END PORTRAITS */
