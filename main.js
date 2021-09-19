@@ -4,7 +4,7 @@ const nicknames = {
     nickname1: '{ sammySeal }',
     nickname2: '{ smokinSammySeal }',
     nickname3: '{ originalSamSeal }',
-    nickname4: '{ samuelSealwell }',
+    nickname4: '{ samuelSealwall }',
 };
 
 const nicknamesArray = Object.values(nicknames);
@@ -34,7 +34,10 @@ const fonts = {
     font4: "'Caveat', sans-serif",
     font5: "'Gluten', sans-serif",
     font6: "'Lato', sans-serif",
-    font7: "'Pacifico', sans-serif"
+    font7: "'Pacifico', sans-serif",
+    font8: "'Courier-New', monospace",
+    font9: "'Trebuchet', sans-serif",
+    font10: "'Lucida Console', monospace"
 };
 
 const fontsArray = Object.values(fonts);
@@ -57,10 +60,10 @@ nicknameDisplay.style.fontFamily = randomFont;
 /* PORTRAITS */
 // List of portraits
 const portraits = {
-    portrait1: 'test1.jpg',
-    portrait2: 'test2.jpg',
-    portrait3: 'test3.jpg',
-    portrait4: 'test4.png'
+    portrait1: 'assets/test1.jpg',
+    portrait2: 'assets/test2.jpg',
+    portrait3: 'assets/test3.jpg',
+    portrait4: 'assets/test4.png'
 }
 
 const portraitsArray = Object.values(portraits);
