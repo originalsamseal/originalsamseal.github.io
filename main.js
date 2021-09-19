@@ -60,10 +60,10 @@ nicknameDisplay.style.fontFamily = randomFont;
 /* PORTRAITS */
 // List of portraits
 const portraits = {
-    portrait1: 'assets/test1.jpg',
-    portrait2: 'assets/test2.jpg',
-    portrait3: 'assets/test3.jpg',
-    portrait4: 'assets/test4.png'
+    portrait1: 'assets/sammy1.png',
+    portrait2: 'assets/sammy2.png',
+    portrait3: 'assets/sammy3.png',
+    portrait4: 'assets/sammy4.png'
 }
 
 const portraitsArray = Object.values(portraits);

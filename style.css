@@ -6,7 +6,8 @@ body {
 
 .splash {
     text-align: center;
-    margin-top: 9%;
+    margin-top: 2%;
+    max-height: 100vw;
 }
 
 .splash h1 {
@@ -17,5 +18,5 @@ body {
 }
 
 #sammy-portrait {
-    max-width: 350px;
+    max-width: 375px;
 }
