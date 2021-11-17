@@ -4,7 +4,8 @@ const nicknames = {
     nickname1: '{ sammySeal }',
     nickname2: '{ smokinSammySeal }',
     nickname3: '{ originalSamSeal }',
-    nickname4: '{ samuelSealwall }',
+    nickname4: '{ samuelSealwall }'
+    // nickname5: '{ Sammy Seal the Serial Killer }'
 };
 
 const nicknamesArray = Object.values(nicknames);
@@ -60,10 +61,10 @@ nicknameDisplay.style.fontFamily = randomFont;
 /* PORTRAITS */
 // List of portraits
 const portraits = {
-    portrait1: 'assets/sammy1.png',
-    portrait2: 'assets/sammy2.png',
-    portrait3: 'assets/sammy3.png',
-    portrait4: 'assets/sammy4.png'
+    portrait1: 'assets/sammy1-2.png',
+    portrait2: 'assets/sammy2-2.png',
+    portrait3: 'assets/sammy3-2.png',
+    portrait4: 'assets/sammy4-2.png'
 }
 
 const portraitsArray = Object.values(portraits);

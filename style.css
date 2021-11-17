@@ -1,12 +1,16 @@
-body {
+*, html, body {
     margin: 0;
     padding: 0;
     background-color: azure;
 }
 
+h1#nickname.title {
+    margin: 2% 0;
+}
+
 .splash {
     text-align: center;
-    margin-top: 2%;
+    /* margin-top: 1%; */
     max-height: 100vw;
 }
 
@@ -18,5 +22,5 @@ body {
 }
 
 #sammy-portrait {
-    max-width: 375px;
+    /* max-width: 375px; */
 }
