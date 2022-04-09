@@ -26,7 +26,9 @@ h1#nickname.title {
 }
 h2 {
     font-family: "roboto slab";
-    background-color: rgba(255, 245, 138)
+    background-color: rgba(255, 245, 138);
+    border-radius: 10px;
+    padding: 5px;
 }
 .big-button {
     display: flex;
