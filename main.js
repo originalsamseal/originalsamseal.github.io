@@ -98,13 +98,13 @@ const Jokes = {
     7: ['What did the mom buffalo say to the baby buffalo when he went off to college?','...bye son!']    
 }
 const nJokes = Object.keys(Jokes).length;
-const randoNum = Math.ceil(Math.random()*nJokes);
-const joke = Jokes[randoNum];
-const jokeQ = joke[0];
-const jokeA = joke[1];
 
 // CALLS
 function tellJoke(){
+    const randoNum = Math.ceil(Math.random()*nJokes);
+    const joke = Jokes[randoNum];
+    const jokeQ = joke[0];
+    const jokeA = joke[1];
     alert(`\nJoke: #${randoNum}\n\n${jokeQ}\n`)
     setTimeout(()=>alert(jokeA+'\n'), 1000)
 }
