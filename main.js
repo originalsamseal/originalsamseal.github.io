@@ -4,8 +4,11 @@ const nicknames = {
     nickname1: '{ sammySeal }',
     nickname2: '{ smokinSammySeal }',
     nickname3: '{ originalSamSeal }',
-    nickname4: '{ samuelSealwall }'
-    // nickname5: '{ Sammy Seal the Serial Killer }'
+    nickname4: '{ samuelSealwall }',
+    nickname5: '{ samuelSealworth }',
+    nickname6: '{ samuelSealington }',
+    nickname7: '{ sammySealkowski }',
+    nickname7: '{ sammySeal-Mart }',
 };
 
 const nicknamesArray = Object.values(nicknames);
@@ -83,3 +86,26 @@ portraitDisplay.src = randomPortrait;
         // CONSOLE TESTING
     console.log('Portrait currently displayed: ' + portraitDisplay.src);
 /* END PORTRAITS */
+
+/* JOKE TELLING FEATURE*/
+const Jokes = {
+    1: ['Why did the scarecrow win a Nobel Prize?','...because it was out standing in its field!'],    
+    2: ['Why do cows have hooves instead of feet?','...because they lac-tose!'],    
+    3: ['What do you call a bear left out in the rain?','...a drizzly bear!'],    
+    4: ['What do you call a bear who lost his dentures?','...a gummy bear!'],
+    5: ['What did the mommy cow say to the baby cow?','...it\'s pasture bed time!'],    
+    6: ['How do farmers count their herd?','...with a cow-culator!'],
+    7: ['What did the mom buffalo say to the baby buffalo when he went off to college?','...bye son!']    
+}
+const nJokes = Object.keys(Jokes).length;
+const randoNum = Math.ceil(Math.random()*nJokes);
+const joke = Jokes[randoNum];
+const jokeQ = joke[0];
+const jokeA = joke[1];
+
+// CALLS
+function tellJoke(){
+    alert(`\nJoke: #${randoNum}\n\n${jokeQ}\n`)
+    setTimeout(()=>alert(jokeA+'\n'), 1000)
+}
+/* END -- JOKE TELLING FEATURE*/
